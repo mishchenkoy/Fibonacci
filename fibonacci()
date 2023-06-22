@@ -1,0 +1,3 @@
+fibonacci() function is defined to generate the Fibonacci sequence up to a given number of terms n. The base cases are defined for n <= 0, n = 1, and n = 2. For any n > 2, the function recursively calls itself with n - 1 to generate the sequence up to the previous term, and then calculates the next Fibonacci number by adding the last two numbers in the sequence. The function continues this process until it reaches the desired number of terms.
+
+We set n = 10 to generate the Fibonacci sequence up to the 10th term. We call the fibonacci() function with n and store the resulting sequence in the fib_sequence variable. Finally, we print the Fibonacci sequence up to the given number of terms on the screen.
